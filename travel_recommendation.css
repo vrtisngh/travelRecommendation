@@ -1,0 +1,25 @@
+body { margin: 0; font-family: Arial, sans-serif; }
+
+nav { display: flex; align-items: center; justify-content: space-between; background: #0b3d5c; color: white; padding: 10px 30px; }
+nav .logo { font-size: 24px; font-weight: bold; }
+nav ul { list-style: none; display: flex; gap: 20px; margin: 0; padding: 0; }
+nav a { color: white; text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+.search input { padding: 6px; }
+.search button { padding: 6px 12px; cursor: pointer; }
+
+.hero { background: url('./background.jpg') center/cover no-repeat; min-height: 100vh; color: white; padding: 40px 30px; }
+.hero-text { max-width: 600px; background: rgba(0,0,0,0.5); padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+
+#results { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+.card { background: white; color: #222; border-radius: 8px; overflow: hidden; }
+.card img { width: 100%; height: 180px; object-fit: cover; }
+.card h3, .card p { margin: 10px; }
+.msg { background: white; color: #222; padding: 15px; border-radius: 8px; }
+
+.page { max-width: 800px; margin: 40px auto; padding: 0 20px; text-align: center; }
+.team { display: flex; gap: 20px; justify-content: center; }
+.member { background: #eef4f8; padding: 15px; border-radius: 8px; flex: 1; }
+#contactForm { display: flex; flex-direction: column; gap: 15px; }
+#contactForm input, #contactForm textarea { padding: 8px; }
+#contactForm button { padding: 10px; background: #0b3d5c; color: white; border: none; cursor: pointer; }
